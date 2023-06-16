@@ -8,3 +8,10 @@ Tested Environment running with this script
   5. MySQL 5.7.42
   6. Tacacs+ 
 
+How to Use:
+Make sure you already done install Tacgui and freeRadius v3 in the same server
+
+Copy the script to your server
+Running the script by command
+
+```mysql -u root -p<mysql_root_password> < add_user.sql ```
