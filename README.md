@@ -6,11 +6,14 @@ Tested Environment running with this script
   2. FreeRADIUS Version 3.0.16
   3. Tacacs
   5. MySQL 5.7.42
-  6. Tacacs+ 
+  6. Tacacs GUI Version_0.9
+  7. daloRadius 2.0
 
 How to Use:
 
-Make sure you already done install Tacgui and freeRadius v3 in the same server
+Make sure you already done install  below service in the same server 
+  Tacgui (https://github.com/tacacsgui/tacacsgui)
+  daloRadius  (https://github.com/lirantal/daloradius)
 
 Copy the script to your server
 Running the script by command
