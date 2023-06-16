@@ -13,12 +13,9 @@ How to Use:
 
 Make sure you already done install  below service in the same server 
   
-  Tacgui (https://github.com/tacacsgui/tacacsgui)
+- Tacgui (https://github.com/tacacsgui/tacacsgui)
   
-  daloRadius  (https://github.com/lirantal/daloradius)
-
-
-
+- daloRadius  (https://github.com/lirantal/daloradius)
 
 Copy the script to your server
 Running the script by command
