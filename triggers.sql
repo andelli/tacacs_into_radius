@@ -1,7 +1,7 @@
 #Create Triggers
   
 delimiter //
-CREATE TRIGGER insert_RadiusDB AFTER INSERT
+CREATE TRIGGER insert_RadiusDB_I AFTER INSERT
 ON radiusdb
 FOR EACH ROW
 DELETE FROM radiusdb.radcheck;
@@ -17,7 +17,7 @@ SELECT username, IF(message IS NULL,'MK-Read',message) as groupname,0 FROM tgui.
 delimiter ;
 
 delimiter //
-CREATE TRIGGER insert_RadiusDB AFTER UPDATE
+CREATE TRIGGER insert_RadiusDB_U AFTER UPDATE
 ON radiusdb
 FOR EACH ROW
 DELETE FROM radiusdb.radcheck;
@@ -33,7 +33,7 @@ SELECT username, IF(message IS NULL,'MK-Read',message) as groupname,0 FROM tgui.
 delimiter ;
 
 delimiter //
-CREATE TRIGGER insert_RadiusDB AFTER DELETE
+CREATE TRIGGER insert_RadiusDB_D AFTER DELETE
 ON radiusdb
 FOR EACH ROW
 DELETE FROM radiusdb.radcheck;
